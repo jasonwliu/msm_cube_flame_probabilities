@@ -1244,7 +1244,7 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
       const minLockedSum = target - maxC;
       
       // Determine if percentage or flat
-      const isPercent = sourceList.some(o => o.option === s && o.value.includes("%"));
+      const isPercent = firstPool.concat(secThirdPool).some(o => o.option === s && o.value.includes("%"));
       const unit = isPercent ? '%' : '';
       
       if (minLockedSum > 0) {
