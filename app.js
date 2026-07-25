@@ -1379,7 +1379,7 @@ function rollSimItem() {
     for (let i = 0; i < lines; i++) {
       selected.push(sampleWeighted(firstPool));
     }
-    newLines = selected.map(o => ({ option: o.option || o.raw_option, value: o.value }));
+    newLines = selected.map(o => ({ option: o.raw_option || o.option, value: o.value }));
   } else {
     // Potential / Bonus Potential
     const sampled1 = sampleWeighted(firstPool);
