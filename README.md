@@ -2,7 +2,7 @@
 
 A static web calculator that computes the exact probability and expected rolls to hit target **Potential**, **Bonus Potential**, and **Rebirth Flame** stat combinations in MapleStory M — powered by live probability data scraped directly from Nexon's official odds page.
 
-> **[🚀 Live Demo →](https://jasonwliu.github.io/cube_flame_odds/)**
+> **[🚀 Live Demo →](https://jasonwliu.github.io/msm_cube_flame_probabilities/)**
 
 ---
 
@@ -62,8 +62,9 @@ No build tools required — just serve the files:
 
 ```bash
 # Clone the repo
-git clone https://github.com/jasonwliu/cube_flame_odds.git
-cd cube_flame_odds
+git clone https://github.com/jasonwliu/msm_cube_flame_probabilities.git
+cd msm_cube_flame_probabilities
+
 
 # Serve locally (Python 3)
 python -m http.server 8000
