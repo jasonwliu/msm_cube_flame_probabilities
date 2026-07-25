@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MapleStory M Stat Probability & Percentile Calculator</title>
+  <meta name="description" content="Calculate the exact probabilities and percentiles (median, 75%, 85%, 95%) to hit your desired Potential, Bonus Potential, or Rebirth Flame stat combinations in MapleStory M.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-icon">🔥</span>
+        <h1>MapleStory M Probability Calculator</h1>
+      </div>
+      <p class="subtitle">Calculate required rolls and percentiles for Potentials, Bonus Potentials, and Rebirth Flames based on live Nexon odds.</p>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs" aria-label="Calculator Mode">
+      <button class="tab-btn active" id="tab-potential" data-tab="potential">
+        <span class="tab-icon">🔮</span> Potentials
+      </button>
+      <button class="tab-btn" id="tab-bonus-potential" data-tab="bonus_potential">
+        <span class="tab-icon">✨</span> Bonus Potentials
+      </button>
+      <button class="tab-btn" id="tab-flame" data-tab="flame">
+        <span class="tab-icon">🔥</span> Rebirth Flames
+      </button>
+    </nav>
+
+    <!-- Main Workspace -->
+    <main class="calculator-grid">
+      <!-- Left Panel: Legend Guide -->
+      <section class="panel legend-panel">
+        <h2 class="panel-title">Stat Value Guide</h2>
+        <div class="legend-content" id="legend-content">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
+
+      <!-- Center Panel: Configuration -->
+      <section class="panel config-panel">
+        <h2 class="panel-title">1. Configure Item</h2>
+        
+        <!-- Equipment Type Selector -->
+        <div class="input-group">
+          <label for="select-equipment">Equipment Type</label>
+          <select id="select-equipment" class="form-control">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <!-- Tier Selector -->
+        <div class="input-group">
+          <label for="select-tier">Stat Tier</label>
+          <select id="select-tier" class="form-control">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <!-- Number of Lines Selector -->
+        <div class="input-group" id="lines-config-group">
+          <label for="select-lines">Number of Lines on Item</label>
+          <select id="select-lines" class="form-control">
+            <option value="2">2 Lines</option>
+            <option value="3" selected>3 Lines</option>
+          </select>
+        </div>
+
+
+
+        <!-- Target Configuration -->
+        <div class="target-stats-section">
+          <div class="target-header">
+            <label>Target Stats Checklist</label>
+            <button id="btn-clear-stats" class="btn-text">Clear All</button>
+          </div>
+          <div class="stats-checklist" id="stats-checklist-container">
+            <!-- Dynamically populated checkboxes -->
+          </div>
+        </div>
+
+        <button id="btn-calculate-odds" class="btn-calculate">🎲 Calculate Odds</button>
+
+      </section>
+
+      <!-- Right Panel: Results -->
+      <section class="panel results-panel">
+        <h2 class="panel-title">2. Probability Results</h2>
+
+        <!-- Probability Score Card -->
+        <div class="result-card main-prob-card">
+          <span class="card-label">Success Rate per Roll</span>
+          <div class="prob-display" id="prob-percentage">0.0000%</div>
+          <span class="card-subtext" id="prob-odds-ratio">Odds: 1 in 0 rolls</span>
+        </div>
+
+        <!-- Percentiles Grid -->
+        <div class="percentiles-grid">
+          <div class="percentile-card median">
+            <span class="percentile-badge">50% (Median)</span>
+            <div class="rolls-count" id="val-p50">-</div>
+            <span class="rolls-label">Rolls Required</span>
+          </div>
+
+          <div class="percentile-card p75">
+            <span class="percentile-badge">75th Percentile</span>
+            <div class="rolls-count" id="val-p75">-</div>
+            <span class="rolls-label">Rolls Required</span>
+          </div>
+
+          <div class="percentile-card p85">
+            <span class="percentile-badge">85th Percentile</span>
+            <div class="rolls-count" id="val-p85">-</div>
+            <span class="rolls-label">Rolls Required</span>
+          </div>
+
+          <div class="percentile-card p95">
+            <span class="percentile-badge">95th Percentile</span>
+            <div class="rolls-count" id="val-p95">-</div>
+            <span class="rolls-label">Rolls Required</span>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer class="app-footer-note">
+      <p>Data scraped from Nexon MapleStory M Probability website. Not affiliated with Nexon. Use calculations as general guidance; actual rolls depend on RNG.</p>
+    </footer>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
