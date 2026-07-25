@@ -571,7 +571,7 @@ function isTupleMatching(tuple, checkedStats, statThresholds, isFlame = false) {
   const tupleCounts = {};
   
   tuple.forEach(it => {
-    const opt = it.option || it.raw_option || '';
+    const opt = it.raw_option || it.option || '';
     const val = parseFloat((it.value || "0").toString().replace('%', ''));
     tupleSums[opt] = (tupleSums[opt] || 0) + val;
     tupleCounts[opt] = (tupleCounts[opt] || 0) + 1;
@@ -590,7 +590,7 @@ function isTupleMatching(tuple, checkedStats, statThresholds, isFlame = false) {
     if (isFlame && opt.endsWith("scales with X")) {
       const prefix = opt.replace("scales with X", "scales with");
       tuple.forEach(it => {
-        const itemOpt = it.option || it.raw_option || '';
+        const itemOpt = it.raw_option || it.option || '';
         if (itemOpt.startsWith(prefix)) {
           count++;
           sumVal += parseFloat((it.value || "0").toString().replace('%', ''));
