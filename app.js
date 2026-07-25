@@ -1226,6 +1226,40 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
     tbody.appendChild(tr);
   });
 
+  // Helper to compute minimum required sum on locked lines for Phase 1
+  function getLockedConstraintsText(rerollPool, checkedStats, statThresholds, isPathA) {
+    const linesText = isPathA ? "Line 2 & 3" : "Line 1 and Line 2 or 3";
+    const bullets = [];
+    
+    checkedStats.forEach(s => {
+      let maxC = 0;
+      rerollPool.forEach(item => {
+        if (item.option === s) {
+          const val = parseFloat((item.value || "0").replace('%', ''));
+          if (val > maxC) maxC = val;
+        }
+      });
+      
+      const target = statThresholds[s] || 0;
+      const minLockedSum = target - maxC;
+      
+      // Determine if percentage or flat
+      const isPercent = sourceList.some(o => o.option === s && o.value.includes("%"));
+      const unit = isPercent ? '%' : '';
+      
+      if (minLockedSum > 0) {
+        bullets.push(`at least <strong>${minLockedSum.toFixed(1).replace('.0', '')}${unit}</strong> of <strong>${s}</strong>`);
+      } else if (target > 0) {
+        bullets.push(`any combination of <strong>${s}</strong> (or complete it later)`);
+      }
+    });
+    
+    if (bullets.length === 0) {
+      return `any starting stats on the locked lines (${linesText})`;
+    }
+    return `the locked lines (${linesText}) hit a sum of ${bullets.join(' and ')}`;
+  }
+
   // Best path recommendation card
   const best = paths[0];
   const bestStrat = document.getElementById('opt-best-strat');
@@ -1242,15 +1276,17 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
   if (best.name === 'Pure Red Cubes') {
     bestDetails.innerHTML = `Using only Red Cubes is the most cost-efficient path. Expect to use <strong>${Math.round(best.redCubes).toLocaleString()}</strong> Red Cubes.`;
   } else if (best.name === 'Reroll Line 1 using Choice Cubes') {
+    const constraints = getLockedConstraintsText(firstPool, checkedStats, statThresholds, true);
     bestDetails.innerHTML = `
-      <strong>Phase 1:</strong> Roll Red/Black Cubes until you hit <strong>${best.item2.option} +${best.item2.value}</strong> on Line 2 and <strong>${best.item3.option} +${best.item3.value}</strong> on Line 3.<br>
+      <strong>Phase 1:</strong> Roll Red/Black Cubes until <strong>${constraints}</strong>.<br>
       <strong>Phase 2:</strong> Choose <strong>Line 1</strong> to reroll using Choice Cubes while keeping Line 2 & 3.<br>
       Expect: <strong>${Math.round(best.redCubes).toLocaleString()}</strong> Red/Black Cubes + <strong>${Math.round(best.choiceCubes).toLocaleString()}</strong> Choice Cubes.
     `;
   } else {
     // Path B/C
+    const constraints = getLockedConstraintsText(secThirdPool, checkedStats, statThresholds, false);
     bestDetails.innerHTML = `
-      <strong>Phase 1:</strong> Roll Red/Black Cubes until you hit <strong>${best.item1.option} +${best.item1.value}</strong> on Line 1 and <strong>${best.item2.option} +${best.item2.value}</strong> on Line 2 or 3.<br>
+      <strong>Phase 1:</strong> Roll Red/Black Cubes until <strong>${constraints}</strong>.<br>
       <strong>Phase 2:</strong> Choose <strong>the remaining line</strong> to reroll using Choice Cubes while keeping the other two lines.<br>
       Expect: <strong>${Math.round(best.redCubes).toLocaleString()}</strong> Red/Black Cubes + <strong>${Math.round(best.choiceCubes).toLocaleString()}</strong> Choice Cubes.
     `;
