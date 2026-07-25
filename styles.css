@@ -478,11 +478,14 @@ h2 {
 
 /* Hide number input spinners (up/down arrows) */
 .chk-input-val::-webkit-outer-spin-button,
-.chk-input-val::-webkit-inner-spin-button {
+.chk-input-val::-webkit-inner-spin-button,
+.cost-field::-webkit-outer-spin-button,
+.cost-field::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-.chk-input-val[type=number] {
+.chk-input-val[type=number],
+.cost-field[type=number] {
   -moz-appearance: textfield;
 }
 
@@ -855,48 +858,23 @@ h2 {
   cursor: not-allowed;
 }
 
-/* --- Cost Estimates Display --- */
-.cost-estimates {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border-color);
+/* --- Percentile Cost Styling --- */
+.percentile-card-cost {
+  margin-top: 0.6rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
 }
 
-.cost-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  margin-bottom: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.cost-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.75rem;
-}
-
-.cost-card {
-  background: rgba(6, 182, 212, 0.05);
-  border: 1px solid rgba(6, 182, 212, 0.12);
-  border-radius: 10px;
-  padding: 0.75rem 1rem;
-  text-align: center;
-}
-
-.cost-card-label {
-  display: block;
+.pct-cost-row {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--text-secondary);
-  margin-bottom: 0.35rem;
-}
-
-.cost-card-value {
-  font-size: 1.25rem;
-  font-weight: 700;
   color: var(--accent-cyan);
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.1);
 }
 
 /* --- Responsive Adjustments --- */

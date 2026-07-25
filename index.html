@@ -98,8 +98,8 @@
           </div>
           <div class="cost-inputs">
             <div class="cost-input-row" id="cost-meso-row">
-              <label for="input-meso-cost">Mesos per Cube</label>
-              <input type="number" id="input-meso-cost" class="form-control cost-field" placeholder="e.g. 12000000" value="">
+              <label for="input-meso-cost">Mesos per Cube (M)</label>
+              <input type="number" id="input-meso-cost" class="form-control cost-field" placeholder="e.g. 12.5" min="0" value="">
             </div>
             <div class="cost-input-row" id="cost-crystal-row">
               <label for="input-crystal-cost">Crystals per Cube</label>
@@ -129,38 +129,39 @@
             <span class="percentile-badge">50% (Median)</span>
             <div class="rolls-count" id="val-p50">-</div>
             <span class="rolls-label">Rolls Required</span>
+            <div class="percentile-card-cost" id="cost-p50" style="display: none;">
+              <div class="pct-cost-row" id="cost-meso-p50">💰 —</div>
+              <div class="pct-cost-row" id="cost-crystal-p50">💎 —</div>
+            </div>
           </div>
 
           <div class="percentile-card p75">
             <span class="percentile-badge">75th Percentile</span>
             <div class="rolls-count" id="val-p75">-</div>
             <span class="rolls-label">Rolls Required</span>
+            <div class="percentile-card-cost" id="cost-p75" style="display: none;">
+              <div class="pct-cost-row" id="cost-meso-p75">💰 —</div>
+              <div class="pct-cost-row" id="cost-crystal-p75">💎 —</div>
+            </div>
           </div>
 
           <div class="percentile-card p85">
             <span class="percentile-badge">85th Percentile</span>
             <div class="rolls-count" id="val-p85">-</div>
             <span class="rolls-label">Rolls Required</span>
+            <div class="percentile-card-cost" id="cost-p85" style="display: none;">
+              <div class="pct-cost-row" id="cost-meso-p85">💰 —</div>
+              <div class="pct-cost-row" id="cost-crystal-p85">💎 —</div>
+            </div>
           </div>
 
           <div class="percentile-card p95">
             <span class="percentile-badge">95th Percentile</span>
             <div class="rolls-count" id="val-p95">-</div>
             <span class="rolls-label">Rolls Required</span>
-          </div>
-        </div>
-
-        <!-- Cost Estimates -->
-        <div class="cost-estimates" id="cost-estimates" style="display: none;">
-          <h3 class="cost-title">Estimated Costs</h3>
-          <div class="cost-grid">
-            <div class="cost-card" id="cost-meso-card" style="display: none;">
-              <span class="cost-card-label">💰 Meso Cost (Median)</span>
-              <div class="cost-card-value" id="cost-meso-value">—</div>
-            </div>
-            <div class="cost-card" id="cost-crystal-card">
-              <span class="cost-card-label">💎 Crystal Cost (Median)</span>
-              <div class="cost-card-value" id="cost-crystal-value">—</div>
+            <div class="percentile-card-cost" id="cost-p95" style="display: none;">
+              <div class="pct-cost-row" id="cost-meso-p95">💰 —</div>
+              <div class="pct-cost-row" id="cost-crystal-p95">💎 —</div>
             </div>
           </div>
         </div>

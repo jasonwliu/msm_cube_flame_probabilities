@@ -459,6 +459,10 @@ function displayResultsError(msg) {
   valP75.textContent = "N/A";
   valP85.textContent = "N/A";
   valP95.textContent = "N/A";
+  
+  document.querySelectorAll('.percentile-card-cost').forEach(el => {
+    el.style.display = 'none';
+  });
 }
 
 // Helper to check if a rolled tuple of options meets target criteria
@@ -539,6 +543,12 @@ function resetResults() {
   document.getElementById('val-p75').textContent = '-';
   document.getElementById('val-p85').textContent = '-';
   document.getElementById('val-p95').textContent = '-';
+  
+  // Hide cost sections
+  const costSections = document.querySelectorAll('.percentile-card-cost');
+  costSections.forEach(el => {
+    el.style.display = 'none';
+  });
 }
 
 // Calculate success probability and percentiles
@@ -717,7 +727,10 @@ function displayResults(p) {
     valP75.textContent = "-";
     valP85.textContent = "-";
     valP95.textContent = "-";
-    document.getElementById('cost-estimates').style.display = 'none';
+    
+    document.querySelectorAll('.percentile-card-cost').forEach(el => {
+      el.style.display = 'none';
+    });
     return;
   }
   
@@ -743,36 +756,53 @@ function displayResults(p) {
   valP85.textContent = n85.toLocaleString();
   valP95.textContent = n95.toLocaleString();
   
-  // Cost estimates
-  const costEstimates = document.getElementById('cost-estimates');
-  const costMesoCard = document.getElementById('cost-meso-card');
-  const costCrystalCard = document.getElementById('cost-crystal-card');
-  const costMesoValue = document.getElementById('cost-meso-value');
-  const costCrystalValue = document.getElementById('cost-crystal-value');
-  
   if (activeTab === 'flame') {
-    costEstimates.style.display = 'none';
+    document.querySelectorAll('.percentile-card-cost').forEach(el => {
+      el.style.display = 'none';
+    });
     return;
   }
   
-  costEstimates.style.display = 'block';
+  // Calculate cost estimates for each percentile card
+  const percentiles = [
+    { key: 'p50', rolls: n50 },
+    { key: 'p75', rolls: n75 },
+    { key: 'p85', rolls: n85 },
+    { key: 'p95', rolls: n95 }
+  ];
   
-  // Crystal cost
   const crystalPerCube = activeTab === 'bonus_potential' ? 50 : 25;
-  const crystalTotal = n50 * crystalPerCube;
-  costCrystalValue.textContent = crystalTotal.toLocaleString() + ' 💎';
-  costCrystalCard.style.display = 'block';
-  
-  // Meso cost (only for regular potentials)
   const mesoInput = document.getElementById('input-meso-cost');
-  const mesoCost = parseFloat(mesoInput.value);
-  if (activeTab === 'potential' && mesoCost > 0) {
-    const mesoTotal = n50 * mesoCost;
-    costMesoValue.textContent = formatMesos(mesoTotal);
-    costMesoCard.style.display = 'block';
-  } else {
-    costMesoCard.style.display = 'none';
-  }
+  const mesoCost = mesoInput ? parseFloat(mesoInput.value) : 0;
+  const showMeso = activeTab === 'potential' && mesoCost > 0;
+  
+  percentiles.forEach(pct => {
+    const costContainer = document.getElementById(`cost-${pct.key}`);
+    const mesoEl = document.getElementById(`cost-meso-${pct.key}`);
+    const crystalEl = document.getElementById(`cost-crystal-${pct.key}`);
+    
+    if (costContainer) {
+      costContainer.style.display = 'flex';
+      
+      // Crystal cost
+      if (crystalEl) {
+        const crystalTotal = pct.rolls * crystalPerCube;
+        crystalEl.textContent = `💎 ${crystalTotal.toLocaleString()}`;
+        crystalEl.style.display = 'block';
+      }
+      
+      // Meso cost
+      if (mesoEl) {
+        if (showMeso) {
+          const mesoTotal = pct.rolls * (mesoCost * 1000000);
+          mesoEl.textContent = `💰 ${formatMesos(mesoTotal)}`;
+          mesoEl.style.display = 'block';
+        } else {
+          mesoEl.style.display = 'none';
+        }
+      }
+    }
+  });
 }
 
 function formatMesos(amount) {
