@@ -709,6 +709,52 @@ h2 {
   padding: 0 1rem;
 }
 
+/* --- Legend Table --- */
+.legend-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.legend-table thead th {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.legend-table thead th:not(:first-child) {
+  text-align: center;
+}
+
+.legend-table tbody td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+}
+
+.legend-table tbody td:not(:first-child) {
+  text-align: center;
+  font-family: 'Outfit', monospace;
+  color: var(--accent-cyan);
+  font-weight: 500;
+}
+
+.legend-stat-name {
+  font-weight: 500;
+  color: var(--text-primary) !important;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.legend-table tbody tr:hover {
+  background: rgba(6, 182, 212, 0.05);
+}
+
 /* --- Rebirth Flame Row Dropdowns --- */
 .flame-row {
   display: flex;
@@ -771,35 +817,171 @@ h2 {
   cursor: not-allowed;
 }
 
+/* --- Cost Configuration --- */
+.cost-config {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.cost-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cost-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cost-input-row label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.cost-field {
+  width: 160px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.cost-field[readonly] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* --- Cost Estimates Display --- */
+.cost-estimates {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.cost-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cost-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.cost-card {
+  background: rgba(6, 182, 212, 0.05);
+  border: 1px solid rgba(6, 182, 212, 0.12);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+.cost-card-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+}
+
+.cost-card-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+}
+
 /* --- Responsive Adjustments --- */
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
   .calculator-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
   
   .app-footer-note {
     grid-column: span 1;
   }
+  
+  .legend-panel {
+    order: 3;
+  }
+  
+  .config-panel {
+    order: 1;
+  }
+  
+  .results-panel {
+    order: 2;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .app-container {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 0.75rem;
   }
+  
   .panel {
     padding: 1.25rem;
+    border-radius: 14px;
   }
-  .percentiles-grid {
-    grid-template-columns: 1fr;
+  
+  .nav-tabs {
+    flex-direction: column;
+    gap: 0.25rem;
   }
+  
   .tab-btn {
     font-size: 0.85rem;
-    padding: 0.6rem 0.5rem;
+    padding: 0.6rem 0.75rem;
+    justify-content: flex-start;
   }
+  
+  .percentiles-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
+  
   .prob-display {
-    font-size: 2.25rem;
+    font-size: 2rem;
+  }
+  
+  .flame-row-only {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  
+  .flame-row-only .flame-row-left {
+    width: 100%;
+  }
+  
+  .flame-row-only .flame-threshold-select {
+    width: 100%;
+  }
+  
+  .cost-input-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+  
+  .cost-field {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .percentiles-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -91,6 +91,23 @@
           </div>
         </div>
 
+        <!-- Cost Configuration -->
+        <div class="cost-config" id="cost-config">
+          <div class="target-header">
+            <label>Cost per Cube</label>
+          </div>
+          <div class="cost-inputs">
+            <div class="cost-input-row" id="cost-meso-row">
+              <label for="input-meso-cost">Mesos per Cube</label>
+              <input type="number" id="input-meso-cost" class="form-control cost-field" placeholder="e.g. 12000000" value="">
+            </div>
+            <div class="cost-input-row" id="cost-crystal-row">
+              <label for="input-crystal-cost">Crystals per Cube</label>
+              <input type="number" id="input-crystal-cost" class="form-control cost-field" value="25" readonly>
+            </div>
+          </div>
+        </div>
+
         <button id="btn-calculate-odds" class="btn-calculate">🎲 Calculate Odds</button>
 
       </section>
@@ -133,6 +150,20 @@
           </div>
         </div>
 
+        <!-- Cost Estimates -->
+        <div class="cost-estimates" id="cost-estimates" style="display: none;">
+          <h3 class="cost-title">Estimated Costs</h3>
+          <div class="cost-grid">
+            <div class="cost-card" id="cost-meso-card" style="display: none;">
+              <span class="cost-card-label">💰 Meso Cost (Median)</span>
+              <div class="cost-card-value" id="cost-meso-value">—</div>
+            </div>
+            <div class="cost-card" id="cost-crystal-card">
+              <span class="cost-card-label">💎 Crystal Cost (Median)</span>
+              <div class="cost-card-value" id="cost-crystal-value">—</div>
+            </div>
+          </div>
+        </div>
 
       </section>
     </main>

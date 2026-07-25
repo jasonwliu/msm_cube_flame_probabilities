@@ -50,6 +50,7 @@ function setupEventListeners() {
       }
       
       populateEquipmentAndTiers();
+      updateCostVisibility();
       resetResults();
     });
   });
@@ -112,6 +113,7 @@ function loadData() {
     .then(data => {
       globalData = data;
       populateEquipmentAndTiers();
+      updateCostVisibility();
       resetResults();
     })
     .catch(error => {
@@ -252,7 +254,7 @@ function renderStatsChecklist() {
     
     for (let i = 1; i <= lines; i++) {
       const row = document.createElement('div');
-      row.className = 'flame-row';
+      row.className = 'flame-row flame-row-only';
       
       const leftDiv = document.createElement('div');
       leftDiv.className = 'flame-row-left';
@@ -355,7 +357,7 @@ function renderStatsChecklist() {
       }
       
       const row = document.createElement('div');
-      row.className = 'flame-row';
+      row.className = 'flame-row potential-row-only';
       
       const leftDiv = document.createElement('div');
       leftDiv.className = 'flame-row-left';
@@ -389,7 +391,7 @@ function renderStatsChecklist() {
   }
 }
 
-// Update dynamic stat roll guide in the Legend Panel (showing all potential options)
+// Update dynamic stat roll guide in the Legend Panel as a table
 function updateRollGuide(firstPool, secThirdPool) {
   const legendContainer = document.getElementById('legend-content');
   if (!legendContainer) return;
@@ -399,8 +401,6 @@ function updateRollGuide(firstPool, secThirdPool) {
     return;
   }
   
-  legendContainer.innerHTML = '';
-  
   const getNumeric = (s) => parseFloat((s || "0").replace('%', ''));
   
   // Union of all options
@@ -409,42 +409,46 @@ function updateRollGuide(firstPool, secThirdPool) {
     ...secThirdPool.map(o => o.option)
   ])).sort();
   
+  // Build table
+  let html = '<table class="legend-table" style="table-layout: fixed; width: 100%;">';
+  html += '<colgroup><col style="width: 46%;"><col style="width: 18%;"><col style="width: 18%;"><col style="width: 18%;"></colgroup>';
+  html += '<thead><tr><th>Stat</th><th>1L Max</th><th>2L Max</th><th>3L Max</th></tr></thead>';
+  html += '<tbody>';
+  
+  const round1D = (val) => Math.round(val * 10) / 10;
+  
   uniqueOpts.forEach(opt => {
     const firstEntries = firstPool.filter(o => o.option === opt);
     const secEntries = secThirdPool.filter(o => o.option === opt);
     
-    const allVals = Array.from(new Set([
-      ...firstEntries.map(o => o.value),
-      ...secEntries.map(o => o.value)
-    ]));
+    // Get max value from first line pool
+    const firstVals = firstEntries.map(o => getNumeric(o.value));
+    const secVals = secEntries.map(o => getNumeric(o.value));
     
-    allVals.sort((a, b) => getNumeric(a) - getNumeric(b));
-    if (allVals.length === 0) return;
+    const maxFirst = firstVals.length > 0 ? Math.max(...firstVals) : 0;
+    const maxSec = secVals.length > 0 ? Math.max(...secVals) : 0;
     
-    const group = document.createElement('div');
-    group.className = 'guide-stat-group';
+    // 1L max: best of first-line or second-line single roll
+    const max1L = Math.max(maxFirst, maxSec);
+    // 2L max: first-line max + second-line max
+    const max2L = maxFirst + maxSec;
+    // 3L max: first-line max + 2 * second-line max
+    const max3L = maxFirst + (maxSec * 2);
     
-    const title = document.createElement('div');
-    title.className = 'guide-stat-title';
-    title.textContent = opt;
-    group.appendChild(title);
+    // Detect if percent-based
+    const isPercent = firstEntries.some(o => o.value.includes('%')) || secEntries.some(o => o.value.includes('%'));
+    const suffix = isPercent ? '%' : '';
     
-    const list = document.createElement('div');
-    list.className = 'guide-values-list';
-    
-    const badge = document.createElement('div');
-    badge.className = 'guide-value-badge';
-    
-    const valSpan = document.createElement('span');
-    valSpan.className = 'guide-value-num';
-    valSpan.textContent = allVals.length > 1 ? `${allVals[0]} - ${allVals[allVals.length - 1]}` : allVals[0];
-    
-    badge.appendChild(valSpan);
-    list.appendChild(badge);
-    
-    group.appendChild(list);
-    legendContainer.appendChild(group);
+    html += '<tr>';
+    html += `<td class="legend-stat-name">${opt}</td>`;
+    html += `<td>${round1D(max1L)}${suffix}</td>`;
+    html += `<td>${round1D(max2L)}${suffix}</td>`;
+    html += `<td>${round1D(max3L)}${suffix}</td>`;
+    html += '</tr>';
   });
+  
+  html += '</tbody></table>';
+  legendContainer.innerHTML = html;
 }
 
 // Display impossible/error message in result panel
@@ -506,6 +510,25 @@ function isTupleMatching(tuple, checkedStats, statThresholds) {
   }
   
   return true;
+}
+
+// Update cost input visibility based on active tab
+function updateCostVisibility() {
+  const costConfig = document.getElementById('cost-config');
+  const mesoRow = document.getElementById('cost-meso-row');
+  const crystalInput = document.getElementById('input-crystal-cost');
+  
+  if (activeTab === 'flame') {
+    costConfig.style.display = 'none';
+  } else if (activeTab === 'bonus_potential') {
+    costConfig.style.display = 'block';
+    mesoRow.style.display = 'none';
+    crystalInput.value = '50';
+  } else {
+    costConfig.style.display = 'block';
+    mesoRow.style.display = 'flex';
+    crystalInput.value = '25';
+  }
 }
 
 // Reset results panel to default empty state
@@ -685,7 +708,6 @@ function calculateOdds() {
   displayResults(successProb);
 }
 
-// Display results and render chart
 // Display results
 function displayResults(p) {
   if (p <= 0.0) {
@@ -695,6 +717,7 @@ function displayResults(p) {
     valP75.textContent = "-";
     valP85.textContent = "-";
     valP95.textContent = "-";
+    document.getElementById('cost-estimates').style.display = 'none';
     return;
   }
   
@@ -719,4 +742,46 @@ function displayResults(p) {
   valP75.textContent = n75.toLocaleString();
   valP85.textContent = n85.toLocaleString();
   valP95.textContent = n95.toLocaleString();
+  
+  // Cost estimates
+  const costEstimates = document.getElementById('cost-estimates');
+  const costMesoCard = document.getElementById('cost-meso-card');
+  const costCrystalCard = document.getElementById('cost-crystal-card');
+  const costMesoValue = document.getElementById('cost-meso-value');
+  const costCrystalValue = document.getElementById('cost-crystal-value');
+  
+  if (activeTab === 'flame') {
+    costEstimates.style.display = 'none';
+    return;
+  }
+  
+  costEstimates.style.display = 'block';
+  
+  // Crystal cost
+  const crystalPerCube = activeTab === 'bonus_potential' ? 50 : 25;
+  const crystalTotal = n50 * crystalPerCube;
+  costCrystalValue.textContent = crystalTotal.toLocaleString() + ' 💎';
+  costCrystalCard.style.display = 'block';
+  
+  // Meso cost (only for regular potentials)
+  const mesoInput = document.getElementById('input-meso-cost');
+  const mesoCost = parseFloat(mesoInput.value);
+  if (activeTab === 'potential' && mesoCost > 0) {
+    const mesoTotal = n50 * mesoCost;
+    costMesoValue.textContent = formatMesos(mesoTotal);
+    costMesoCard.style.display = 'block';
+  } else {
+    costMesoCard.style.display = 'none';
+  }
+}
+
+function formatMesos(amount) {
+  if (amount >= 1_000_000_000) {
+    return (amount / 1_000_000_000).toFixed(1) + 'B';
+  } else if (amount >= 1_000_000) {
+    return (amount / 1_000_000).toFixed(1) + 'M';
+  } else if (amount >= 1_000) {
+    return (amount / 1_000).toFixed(1) + 'K';
+  }
+  return amount.toLocaleString();
 }
