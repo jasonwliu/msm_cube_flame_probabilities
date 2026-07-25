@@ -1093,14 +1093,11 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
 
   // 2. Path A: Lock Line 2 & 3, Choice Reroll Line 1 (First Line Pool)
   let bestPathA = null;
-  let minCostA = Infinity;
+  const validPairsA = [];
 
   secThirdPool.forEach(item2 => {
     secThirdPool.forEach(item3 => {
-      // Probability of rolling this specific locked pair on Line 2 & 3
-      const pRedIntermediate = item2.prob * item3.prob;
-      
-      // Probability of completing the remaining stat on Line 1 (First Line Pool)
+      // Find completing probability for Line 1
       let pChoice = 0;
       firstPool.forEach(item1 => {
         if (isTupleMatching([item1, item2, item3], checkedStats, statThresholds)) {
@@ -1109,43 +1106,49 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
       });
 
       if (pChoice > 0) {
-        const redCubesNeeded = 1 / pRedIntermediate;
-        const choiceCubesNeeded = 1 / pChoice;
-
-        const totalMeso = (redCubesNeeded * effectiveRedMeso) + (choiceCubesNeeded * choiceMeso);
-        const totalCrystal = (redCubesNeeded * effectiveRedCrystal) + (choiceCubesNeeded * choiceCrystal);
-        const totalCombined = getDollarCost(totalMeso, totalCrystal);
-
-        const cost = optMode === 'meso' ? totalMeso : (optMode === 'crystal' ? totalCrystal : totalCombined);
-
-        if (cost < minCostA) {
-          minCostA = cost;
-          bestPathA = {
-            name: 'Reroll Line 1 using Choice Cubes',
-            item2: item2,
-            item3: item3,
-            redCubes: redCubesNeeded,
-            choiceCubes: choiceCubesNeeded,
-            meso: totalMeso,
-            crystal: totalCrystal,
-            combined: totalCombined,
-            costToMinimize: cost
-          };
-        }
+        validPairsA.push({
+          pPair: item2.prob * item3.prob,
+          pChoice: pChoice,
+          item2: item2,
+          item3: item3
+        });
       }
     });
   });
 
+  if (validPairsA.length > 0) {
+    const totalPPair = validPairsA.reduce((acc, p) => acc + p.pPair, 0);
+    const redCubesNeeded = 1 / totalPPair;
+    const choiceCubesNeeded = validPairsA.reduce((acc, p) => acc + (p.pPair / totalPPair) * (1 / p.pChoice), 0);
+
+    const totalMeso = (redCubesNeeded * effectiveRedMeso) + (choiceCubesNeeded * choiceMeso);
+    const totalCrystal = (redCubesNeeded * effectiveRedCrystal) + (choiceCubesNeeded * choiceCrystal);
+    const totalCombined = getDollarCost(totalMeso, totalCrystal);
+    const cost = optMode === 'meso' ? totalMeso : (optMode === 'crystal' ? totalCrystal : totalCombined);
+
+    // Pick the most probable starting pair to show as a cosmetic recommendation
+    const bestPair = validPairsA.sort((a, b) => b.pPair - a.pPair)[0];
+
+    bestPathA = {
+      name: 'Reroll Line 1 using Choice Cubes',
+      item2: bestPair.item2,
+      item3: bestPair.item3,
+      redCubes: redCubesNeeded,
+      choiceCubes: choiceCubesNeeded,
+      meso: totalMeso,
+      crystal: totalCrystal,
+      combined: totalCombined,
+      costToMinimize: cost
+    };
+  }
+
   // 3. Path B/C: Lock Line 1 & Line 2 (or 3), Choice Reroll Remaining Line 2/3 (Second Line Pool)
   let bestPathBC = null;
-  let minCostBC = Infinity;
+  const validPairsBC = [];
 
   firstPool.forEach(item1 => {
     secThirdPool.forEach(item2 => {
-      // Probability of rolling this specific locked pair on Line 1 & 2
-      const pRedIntermediate = item1.prob * item2.prob;
-      
-      // Probability of completing the remaining stat on Line 3 (Second Line Pool)
+      // Find completing probability for the remaining line (Line 3)
       let pChoice = 0;
       secThirdPool.forEach(item3 => {
         if (isTupleMatching([item1, item2, item3], checkedStats, statThresholds)) {
@@ -1154,32 +1157,41 @@ function calculateOptimizer(firstPool, secThirdPool, checkedStats, statThreshold
       });
 
       if (pChoice > 0) {
-        const redCubesNeeded = 1 / pRedIntermediate;
-        const choiceCubesNeeded = 1 / pChoice;
-
-        const totalMeso = (redCubesNeeded * effectiveRedMeso) + (choiceCubesNeeded * choiceMeso);
-        const totalCrystal = (redCubesNeeded * effectiveRedCrystal) + (choiceCubesNeeded * choiceCrystal);
-        const totalCombined = getDollarCost(totalMeso, totalCrystal);
-
-        const cost = optMode === 'meso' ? totalMeso : (optMode === 'crystal' ? totalCrystal : totalCombined);
-
-        if (cost < minCostBC) {
-          minCostBC = cost;
-          bestPathBC = {
-            name: 'Reroll remaining line using Choice Cubes',
-            item1: item1,
-            item2: item2,
-            redCubes: redCubesNeeded,
-            choiceCubes: choiceCubesNeeded,
-            meso: totalMeso,
-            crystal: totalCrystal,
-            combined: totalCombined,
-            costToMinimize: cost
-          };
-        }
+        validPairsBC.push({
+          pPair: item1.prob * item2.prob,
+          pChoice: pChoice,
+          item1: item1,
+          item2: item2
+        });
       }
     });
   });
+
+  if (validPairsBC.length > 0) {
+    const totalPPair = validPairsBC.reduce((acc, p) => acc + p.pPair, 0);
+    const redCubesNeeded = 1 / totalPPair;
+    const choiceCubesNeeded = validPairsBC.reduce((acc, p) => acc + (p.pPair / totalPPair) * (1 / p.pChoice), 0);
+
+    const totalMeso = (redCubesNeeded * effectiveRedMeso) + (choiceCubesNeeded * choiceMeso);
+    const totalCrystal = (redCubesNeeded * effectiveRedCrystal) + (choiceCubesNeeded * choiceCrystal);
+    const totalCombined = getDollarCost(totalMeso, totalCrystal);
+    const cost = optMode === 'meso' ? totalMeso : (optMode === 'crystal' ? totalCrystal : totalCombined);
+
+    // Pick the most probable starting pair to show as a cosmetic recommendation
+    const bestPair = validPairsBC.sort((a, b) => b.pPair - a.pPair)[0];
+
+    bestPathBC = {
+      name: 'Reroll remaining line using Choice Cubes',
+      item1: bestPair.item1,
+      item2: bestPair.item2,
+      redCubes: redCubesNeeded,
+      choiceCubes: choiceCubesNeeded,
+      meso: totalMeso,
+      crystal: totalCrystal,
+      combined: totalCombined,
+      costToMinimize: cost
+    };
+  }
 
   // Render comparison table
   const tbody = document.getElementById('optimizer-paths-tbody');
