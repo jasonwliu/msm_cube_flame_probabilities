@@ -22,6 +22,7 @@
       <div class="logo-area">
         <span class="logo-icon">🔥</span>
         <h1>MapleStory M Probability Calculator</h1>
+        <button id="btn-open-help" class="btn-help-icon" title="View Guide">❓</button>
       </div>
       <p class="subtitle">Calculate required rolls and percentiles for Potentials, Bonus Potentials, and Rebirth Flames based on live Nexon odds.</p>
     </header>
@@ -37,10 +38,16 @@
       <button class="tab-btn" id="tab-flame" data-tab="flame">
         <span class="tab-icon">🔥</span> Rebirth Flames
       </button>
+      <button class="tab-btn" id="tab-optimizer" data-tab="optimizer">
+        <span class="tab-icon">⚡</span> Choice Optimizer
+      </button>
+      <button class="tab-btn" id="tab-simulator" data-tab="simulator">
+        <span class="tab-icon">🎮</span> RNG Simulator
+      </button>
     </nav>
 
     <!-- Main Workspace -->
-    <main class="calculator-grid">
+    <main class="calculator-grid" id="calculator-grid">
       <!-- Left Panel: Legend Guide -->
       <section class="panel legend-panel">
         <h2 class="panel-title">Stat Value Guide</h2>
@@ -105,6 +112,28 @@
               <label for="input-crystal-cost">Crystals per Cube</label>
               <input type="number" id="input-crystal-cost" class="form-control cost-field" value="25" readonly>
             </div>
+            <!-- Choice Cube Cost Inputs (Only for Choice Optimizer tab) -->
+            <div class="cost-input-row" id="cost-choice-meso-row" style="display: none;">
+              <label for="input-choice-meso-cost">Choice Cubes (Billion)</label>
+              <input type="number" id="input-choice-meso-cost" class="form-control cost-field" placeholder="e.g. 0.25" min="0" step="any" value="0.25">
+            </div>
+            <!-- Optimization Mode & Exchange Rate -->
+            <div class="cost-input-row" id="opt-mode-row" style="display: none;">
+              <label for="select-opt-mode">Optimize For</label>
+              <select id="select-opt-mode" class="form-control cost-field">
+                <option value="meso">Lowest Mesos</option>
+                <option value="crystal">Lowest Crystals</option>
+                <option value="combined" selected>Lowest Cost ($)</option>
+              </select>
+            </div>
+            <div class="cost-input-row" id="crystals-per-dollar-row" style="display: none;">
+              <label for="input-crystals-per-dollar">Crystals per $</label>
+              <input type="number" id="input-crystals-per-dollar" class="form-control cost-field" value="30" min="0.1" step="any">
+            </div>
+            <div class="cost-input-row" id="dollars-per-billion-row" style="display: none;">
+              <label for="input-dollars-per-billion-mesos">$ per Billion Mesos</label>
+              <input type="number" id="input-dollars-per-billion-mesos" class="form-control cost-field" value="10" min="0.1" step="any">
+            </div>
           </div>
         </div>
 
@@ -114,64 +143,236 @@
 
       <!-- Right Panel: Results -->
       <section class="panel results-panel">
-        <h2 class="panel-title">2. Probability Results</h2>
+        <h2 class="panel-title" id="results-panel-title">2. Probability Results</h2>
 
-        <!-- Probability Score Card -->
-        <div class="result-card main-prob-card">
-          <span class="card-label">Success Rate per Roll</span>
-          <div class="prob-display" id="prob-percentage">0.0000%</div>
-          <span class="card-subtext" id="prob-odds-ratio">Odds: 1 in 0 rolls</span>
+        <!-- Standard Results Container -->
+        <div id="standard-results-container">
+          <!-- Probability Score Card -->
+          <div class="result-card main-prob-card">
+            <span class="card-label">Success Rate per Roll</span>
+            <div class="prob-display" id="prob-percentage">0.0000%</div>
+            <span class="card-subtext" id="prob-odds-ratio">Odds: 1 in 0 rolls</span>
+          </div>
+
+          <!-- Percentiles Grid -->
+          <div class="percentiles-grid">
+            <div class="percentile-card median">
+              <span class="percentile-badge">50% (Median)</span>
+              <div class="rolls-count" id="val-p50">-</div>
+              <span class="rolls-label">Rolls Required</span>
+              <div class="percentile-card-cost" id="cost-p50" style="display: none;">
+                <div class="pct-cost-row" id="cost-meso-p50">💰 —</div>
+                <div class="pct-cost-row" id="cost-crystal-p50">💎 —</div>
+              </div>
+            </div>
+
+            <div class="percentile-card p75">
+              <span class="percentile-badge">75th Percentile</span>
+              <div class="rolls-count" id="val-p75">-</div>
+              <span class="rolls-label">Rolls Required</span>
+              <div class="percentile-card-cost" id="cost-p75" style="display: none;">
+                <div class="pct-cost-row" id="cost-meso-p75">💰 —</div>
+                <div class="pct-cost-row" id="cost-crystal-p75">💎 —</div>
+              </div>
+            </div>
+
+            <div class="percentile-card p85">
+              <span class="percentile-badge">85th Percentile</span>
+              <div class="rolls-count" id="val-p85">-</div>
+              <span class="rolls-label">Rolls Required</span>
+              <div class="percentile-card-cost" id="cost-p85" style="display: none;">
+                <div class="pct-cost-row" id="cost-meso-p85">💰 —</div>
+                <div class="pct-cost-row" id="cost-crystal-p85">💎 —</div>
+              </div>
+            </div>
+
+            <div class="percentile-card p95">
+              <span class="percentile-badge">95th Percentile</span>
+              <div class="rolls-count" id="val-p95">-</div>
+              <span class="rolls-label">Rolls Required</span>
+              <div class="percentile-card-cost" id="cost-p95" style="display: none;">
+                <div class="pct-cost-row" id="cost-meso-p95">💰 —</div>
+                <div class="pct-cost-row" id="cost-crystal-p95">💎 —</div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Percentiles Grid -->
-        <div class="percentiles-grid">
-          <div class="percentile-card median">
-            <span class="percentile-badge">50% (Median)</span>
-            <div class="rolls-count" id="val-p50">-</div>
-            <span class="rolls-label">Rolls Required</span>
-            <div class="percentile-card-cost" id="cost-p50" style="display: none;">
-              <div class="pct-cost-row" id="cost-meso-p50">💰 —</div>
-              <div class="pct-cost-row" id="cost-crystal-p50">💎 —</div>
-            </div>
+        <!-- Choice Optimizer Results Container -->
+        <div id="optimizer-results-container" style="display: none;">
+          <!-- Recommended Path Summary Card -->
+          <div class="result-card main-prob-card optimizer-recommendation-card">
+            <span class="card-label">🏆 Recommended Strategy</span>
+            <div class="opt-display-strat" id="opt-best-strat">Calculating...</div>
+            <div class="card-subtext opt-display-subtext" id="opt-best-details">Configure stats and click Optimize</div>
           </div>
-
-          <div class="percentile-card p75">
-            <span class="percentile-badge">75th Percentile</span>
-            <div class="rolls-count" id="val-p75">-</div>
-            <span class="rolls-label">Rolls Required</span>
-            <div class="percentile-card-cost" id="cost-p75" style="display: none;">
-              <div class="pct-cost-row" id="cost-meso-p75">💰 —</div>
-              <div class="pct-cost-row" id="cost-crystal-p75">💎 —</div>
-            </div>
-          </div>
-
-          <div class="percentile-card p85">
-            <span class="percentile-badge">85th Percentile</span>
-            <div class="rolls-count" id="val-p85">-</div>
-            <span class="rolls-label">Rolls Required</span>
-            <div class="percentile-card-cost" id="cost-p85" style="display: none;">
-              <div class="pct-cost-row" id="cost-meso-p85">💰 —</div>
-              <div class="pct-cost-row" id="cost-crystal-p85">💎 —</div>
-            </div>
-          </div>
-
-          <div class="percentile-card p95">
-            <span class="percentile-badge">95th Percentile</span>
-            <div class="rolls-count" id="val-p95">-</div>
-            <span class="rolls-label">Rolls Required</span>
-            <div class="percentile-card-cost" id="cost-p95" style="display: none;">
-              <div class="pct-cost-row" id="cost-meso-p95">💰 —</div>
-              <div class="pct-cost-row" id="cost-crystal-p95">💎 —</div>
-            </div>
+          
+          <!-- Path Cost Comparison Table -->
+          <div class="optimizer-paths-table-container">
+            <h3 class="cost-title">Paths Comparison</h3>
+            <table class="legend-table" style="table-layout: fixed; width: 100%;">
+              <colgroup>
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Path</th>
+                  <th>Red Cubes</th>
+                  <th>Choice Cubes</th>
+                  <th>Total Cost</th>
+                </tr>
+              </thead>
+              <tbody id="optimizer-paths-tbody">
+                <!-- Dynamically populated comparison rows -->
+              </tbody>
+            </table>
           </div>
         </div>
 
       </section>
     </main>
 
+    <!-- Simulator Workspace -->
+    <div class="simulator-workspace" id="simulator-workspace" style="display: none;">
+      <!-- Left Panel: Sim Controls & Stats -->
+      <section class="panel sim-controls-panel">
+        <h2 class="panel-title">🎮 Simulator Controls</h2>
+        
+        <div class="input-group">
+          <label for="select-sim-mode">Simulation Mode</label>
+          <select id="select-sim-mode" class="form-control">
+            <option value="potential" selected>🔮 Potentials</option>
+            <option value="bonus_potential">✨ Bonus Potentials</option>
+            <option value="flame">🔥 Rebirth Flames</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="sim-select-equipment">Equipment Slot</label>
+          <select id="sim-select-equipment" class="form-control">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="sim-select-tier">Equipment Tier</label>
+          <select id="sim-select-tier" class="form-control">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <div class="input-group" id="sim-lines-config-group">
+          <label for="sim-select-lines" id="sim-lines-label">Number of Potential Lines</label>
+          <select id="sim-select-lines" class="form-control">
+            <!-- Dynamically populated -->
+          </select>
+        </div>
+
+        <div class="sim-actions">
+          <button id="btn-sim-roll" class="btn-calculate" style="margin-top: 0.5rem; margin-bottom: 0.75rem;">🎲 Roll Once</button>
+          <button id="btn-sim-auto" class="btn-calculate btn-preset" style="margin: 0; width: 100%;">⚡ Auto-Roll to Target</button>
+        </div>
+
+        <div class="sim-stats-container" style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+          <h3 class="cost-title">Session Statistics</h3>
+          <div class="sim-stats-grid">
+            <div class="sim-stat-card">
+              <span class="sim-stat-label">Total Rolls</span>
+              <div class="sim-stat-value" id="sim-stat-rolls">0</div>
+            </div>
+          </div>
+          <button id="btn-sim-reset" class="btn-text" style="width: 100%; margin-top: 1.25rem; text-align: center;">Reset Session Stats</button>
+        </div>
+      </section>
+
+      <!-- Center Panel: Virtual Item Card -->
+      <section class="panel sim-card-panel">
+        <h2 class="panel-title">🛡️ Virtual Item Card</h2>
+        
+        <div class="virtual-item-area">
+          <div class="virtual-item-card" id="virtual-item-card">
+            <div class="item-header-glow"></div>
+            <div class="item-card-header">
+              <span class="item-tier-badge" id="item-tier-badge">LEGENDARY</span>
+              <div class="item-name" id="item-name">Legendary Weapon</div>
+            </div>
+            <div class="item-card-lines" id="item-card-lines">
+              <!-- Dynamically populated simulator potential lines -->
+              <div class="sim-item-line">Min Value to configure stats</div>
+              <div class="sim-item-line">—</div>
+              <div class="sim-item-line">—</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Panel: Target Configuration -->
+      <section class="panel sim-target-panel">
+        <h2 class="panel-title">🎯 Target Configuration</h2>
+        <div class="input-group target-stat-group" style="height: calc(100% - 2.5rem); display: flex; flex-direction: column;">
+          <div class="target-header" style="margin-bottom: 0.75rem;">
+            <label>Target Values for Auto-Roll</label>
+            <button class="btn-text btn-clear-target" id="btn-sim-clear-stats">Clear Targets</button>
+          </div>
+          <div class="checklist-grid" id="sim-stats-checklist-container" style="flex: 1; overflow-y: auto; padding-right: 0.25rem;">
+            <!-- Dynamically populated checklist option rows for the simulator -->
+          </div>
+        </div>
+      </section>
+    </div>
+
     <footer class="app-footer-note">
       <p>Data scraped from Nexon MapleStory M Probability website. Not affiliated with Nexon. Use calculations as general guidance; actual rolls depend on RNG.</p>
     </footer>
+  </div>
+
+  <!-- Help Modal -->
+  <div class="modal-overlay" id="help-modal" style="display: none;">
+    <div class="modal-card">
+      <button class="modal-close" id="btn-close-modal">&times;</button>
+      <h2 class="modal-title">📖 Calculator User Guide</h2>
+      <div class="modal-body">
+        
+        <section class="modal-section">
+          <h3>🔮 Potentials & Bonus Potentials</h3>
+          <p>Configure equipment, tier, and lines, then define your target thresholds:</p>
+          <ul>
+            <li><strong>Static Option Rows:</strong> Every possible stat is listed. Type in the combined minimum value you wish to target (e.g., enter <code>18</code> for 18% Crit DMG).</li>
+            <li><strong>Value Guide Table (Left Panel):</strong> Displays the maximum possible rolls for 1, 2, and 3 combined lines to help guide your inputs.</li>
+            <li><strong>Impossible Combinations:</strong> The calculator automatically verifies if your combination is mathematically possible (e.g., asking for 30% Crit DMG on a 2-line item is flagged as impossible).</li>
+          </ul>
+        </section>
+
+        <section class="modal-section">
+          <h3>🔥 Rebirth Flames</h3>
+          <p>For Rebirth Flames, configure the target lines and stats:</p>
+          <ul>
+            <li><strong>Dropdown Rows:</strong> Select your target stats from the dropdowns (up to 2 lines).</li>
+            <li><strong>Min Values:</strong> Specify the minimum roll threshold for each selected stat.</li>
+            <li><strong>Scales with X:</strong> Select generic scaling properties (e.g. <em>PHY ATK scales with X</em>) where <em>X</em> is the sum of all other stats combined. Specifying a min value is disabled for scaling stats.</li>
+          </ul>
+        </section>
+
+        <section class="modal-section">
+          <h3>💰 Cost Estimates</h3>
+          <p>Get estimated costs to hit your combination at various percentiles:</p>
+          <ul>
+            <li><strong>Meso Costs:</strong> Input the cost of a single Red Cube in Millions (M) (e.g. type <code>12.5</code> for 12,500,000 mesos) under the "Cost per Cube" config.</li>
+            <li><strong>Crystal Costs:</strong> Automatically calculated using 25 crystals per cube for Potentials and 50 crystals per cube for Bonus Potentials.</li>
+            <li><strong>Results Grid:</strong> Costs are calculated and displayed directly inside the 50% (Median), 75th, 85th, and 95th percentile cards under the rolls required.</li>
+          </ul>
+        </section>
+
+        <section class="modal-section">
+          <h3>🎲 Calculating</h3>
+          <p>Once your targets and costs are configured, click the <strong>🎲 Calculate Odds</strong> button to generate the success rates, required rolls, and costs.</p>
+        </section>
+
+      </div>
+    </div>
   </div>
 
   <!-- Custom JavaScript -->

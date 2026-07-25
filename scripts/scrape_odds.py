@@ -107,21 +107,20 @@ def parse_potentials(table_html, page_name, category="Potential"):
                     return
                 tier = tier_match.group(1)
                 
-                # Check target stats
-                if opt in TARGET_POTENTIALS:
-                    clean_opt = TARGET_POTENTIALS[opt]
-                    if clean_opt == "Max HP":
-                        clean_opt = "Max HP (%)" if "%" in val else "Max HP (flat)"
-                    
-                    if tier not in data:
-                        data[tier] = {"first": [], "second_third": []}
-                    
-                    data[tier][line_name].append({
-                        "raw_option": opt,
-                        "option": clean_opt,
-                        "value": val,
-                        "prob": parse_percentage(prob)
-                    })
+                # Map option name
+                clean_opt = TARGET_POTENTIALS.get(opt, opt)
+                if clean_opt == "Max HP":
+                    clean_opt = "Max HP (%)" if "%" in val else "Max HP (flat)"
+                
+                if tier not in data:
+                    data[tier] = {"first": [], "second_third": []}
+                
+                data[tier][line_name].append({
+                    "raw_option": opt,
+                    "option": clean_opt,
+                    "value": val,
+                    "prob": parse_percentage(prob)
+                })
             
             parse_bp_side(left_label, left_opt, left_val, left_prob, "first")
             parse_bp_side(right_label, right_opt, right_val, right_prob, "second_third")
@@ -148,8 +147,8 @@ def parse_potentials(table_html, page_name, category="Potential"):
             left_opt, left_val, left_prob = cells[0], cells[1], cells[2]
             right_opt, right_val, right_prob = cells[4], cells[5], cells[6]
             
-            if left_opt in TARGET_POTENTIALS and left_prob:
-                clean_opt = TARGET_POTENTIALS[left_opt]
+            if left_prob:
+                clean_opt = TARGET_POTENTIALS.get(left_opt, left_opt)
                 if clean_opt == "Max HP":
                     clean_opt = "Max HP (%)" if "%" in left_val else "Max HP (flat)"
                 
@@ -163,8 +162,8 @@ def parse_potentials(table_html, page_name, category="Potential"):
                     "prob": parse_percentage(left_prob)
                 })
                 
-            if right_opt in TARGET_POTENTIALS and right_prob:
-                clean_opt = TARGET_POTENTIALS[right_opt]
+            if right_prob:
+                clean_opt = TARGET_POTENTIALS.get(right_opt, right_opt)
                 if clean_opt == "Max HP":
                     clean_opt = "Max HP (%)" if "%" in right_val else "Max HP (flat)"
                 
@@ -209,15 +208,14 @@ def parse_rebirth_flames(table_html):
             continue
             
         opt = cells[0]
-        # Map options
-        matched_clean = None
+        if not opt or not opt.strip():
+            continue
+        # Map options - use TARGET_FLAMES mapping if available, otherwise use raw option name
+        matched_clean = opt
         for prefix, clean_name in TARGET_FLAMES.items():
             if opt.startswith(prefix):
                 matched_clean = clean_name
                 break
-                
-        if not matched_clean:
-            continue
             
         if current_equipment not in data:
             data[current_equipment] = {t: [] for t in tiers}

@@ -10,10 +10,12 @@ A static web calculator that computes the exact probability and expected rolls t
 
 | Feature | Description |
 |---|---|
-| **Three Calculators** | Potentials, Bonus Potentials, and Rebirth Flames — each with tailored UI controls |
+| **Five Calculators & Tools** | Potentials, Bonus Potentials, Rebirth Flames, Choice Cube Optimizer, and RNG Simulator |
+| **Choice Cube Optimizer** | Calculates the cheapest progression path using Red Cubes (no locking) and Choice Cubes (locking 2 lines) based on Meso and Crystal rates |
+| **RNG Simulator** | A realistic virtual item roller matching Nexon's exact weights with an auto-roller that rolls up to 5,000 times until target thresholds are hit |
 | **Live Nexon Data** | Probability tables scraped weekly from Nexon's official disclosure page via GitHub Actions |
 | **Percentile Estimates** | See rolls needed for the Median (50%), 75th, 85th, and 95th percentiles |
-| **Cost Estimator** | Calculates and displays Meso (regular potentials) and Crystal cost estimates directly inside each percentile card based on target rolls (supports custom Meso inputs in millions) |
+| **Cost Estimator** | Calculates and displays Meso and Crystal cost estimates directly inside each percentile card based on target rolls (supports custom Meso inputs in millions) |
 | **Impossible Combo Detection** | Warns you if your selected stat combination can't physically roll on the item |
 | **Stat Value Guide** | Reference table showing 1L Max, 2L Max, and 3L Max values for each potential stat, optimized to prevent horizontal scrolling |
 | **Scaling Flame Stats** | Supports generic "scales with X" flame options alongside discrete stat lines |
