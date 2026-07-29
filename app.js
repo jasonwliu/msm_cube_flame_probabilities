@@ -18,6 +18,7 @@ const selectEquipment = document.getElementById('select-equipment');
 const selectTier = document.getElementById('select-tier');
 const selectLines = document.getElementById('select-lines');
 
+const selectPotentialStyle = document.getElementById('select-potential-style');
 const statsChecklistContainer = document.getElementById('stats-checklist-container');
 const btnClearStats = document.getElementById('btn-clear-stats');
 const linesConfigGroup = document.getElementById('lines-config-group');
@@ -66,9 +67,16 @@ function setupEventListeners() {
     resetResults();
   });
 
+  selectPotentialStyle.addEventListener('change', () => {
+    renderStatsChecklist();
+    resetResults();
+  });
+
   btnClearStats.addEventListener('click', () => {
-    if (activeTab === 'flame') {
-      document.querySelectorAll('.flame-stat-select').forEach(sel => {
+    const style = selectPotentialStyle ? selectPotentialStyle.value : 'sums';
+    const isLineByLine = (activeTab === 'flame') || (style === 'linebyline');
+    if (isLineByLine) {
+      document.querySelectorAll('#stats-checklist-container .flame-stat-select').forEach(sel => {
         sel.value = '';
         const row = sel.closest('.flame-row');
         const valSel = row.querySelector('.flame-threshold-select');
@@ -79,7 +87,7 @@ function setupEventListeners() {
         }
       });
     } else {
-      document.querySelectorAll('.potential-threshold-input').forEach(input => {
+      document.querySelectorAll('#stats-checklist-container .potential-threshold-input').forEach(input => {
         input.value = '';
       });
     }
@@ -329,24 +337,35 @@ function renderStatsChecklist() {
   statsChecklistContainer.style.flex = 'initial';
   statsChecklistContainer.style.boxShadow = 'none';
   
-  if (activeTab === 'flame') {
-    // Filter raw options to exclude trash stats, and include both discrete and consolidated options
-    const rawOpts = Array.from(new Set(sourceList.map(o => o.raw_option)));
-    const uniqueOptsSet = new Set();
-    rawOpts.forEach(o => {
-      const isTarget = o.startsWith("PHY ATK scales with") ||
-                       o.startsWith("MAG ATK scales with") ||
-                       o.startsWith("Crit DMG scales with") ||
-                       o.startsWith("Final DMG Increase") ||
-                       o.startsWith("DEF Ignore Rate");
-      if (isTarget) {
-        uniqueOptsSet.add(o);
-        if (o.startsWith("PHY ATK scales with")) uniqueOptsSet.add("PHY ATK scales with X");
-        else if (o.startsWith("MAG ATK scales with")) uniqueOptsSet.add("MAG ATK scales with X");
-        else if (o.startsWith("Crit DMG scales with")) uniqueOptsSet.add("Crit DMG scales with X");
-      }
-    });
-    const uniqueOpts = Array.from(uniqueOptsSet).sort();
+  const style = selectPotentialStyle ? selectPotentialStyle.value : 'sums';
+  const isLineByLine = (activeTab === 'flame') || (style === 'linebyline');
+  
+  if (isLineByLine) {
+    let uniqueOpts = [];
+    if (activeTab === 'flame') {
+      // Filter raw options to exclude trash stats, and include both discrete and consolidated options
+      const rawOpts = Array.from(new Set(sourceList.map(o => o.raw_option)));
+      const uniqueOptsSet = new Set();
+      rawOpts.forEach(o => {
+        const isTarget = o.startsWith("PHY ATK scales with") ||
+                         o.startsWith("MAG ATK scales with") ||
+                         o.startsWith("Crit DMG scales with") ||
+                         o.startsWith("Final DMG Increase") ||
+                         o.startsWith("DEF Ignore Rate");
+        if (isTarget) {
+          uniqueOptsSet.add(o);
+          if (o.startsWith("PHY ATK scales with")) uniqueOptsSet.add("PHY ATK scales with X");
+          else if (o.startsWith("MAG ATK scales with")) uniqueOptsSet.add("MAG ATK scales with X");
+          else if (o.startsWith("Crit DMG scales with")) uniqueOptsSet.add("Crit DMG scales with X");
+        }
+      });
+      uniqueOpts = Array.from(uniqueOptsSet).sort();
+    } else {
+      // Potential / Bonus Potential
+      uniqueOpts = Array.from(new Set(sourceList.map(o => o.option)))
+        .filter(isAllowedPotential)
+        .sort();
+    }
     
     for (let i = 1; i <= lines; i++) {
       const row = document.createElement('div');
@@ -407,8 +426,13 @@ function renderStatsChecklist() {
             optAnyVal.textContent = 'Any Value';
             valueSelect.appendChild(optAnyVal);
             
-            // Find unique values for selected raw option in the pool
-            const statVals = Array.from(new Set(sourceList.filter(o => o.raw_option === selectedVal).map(o => o.value)));
+            // Find unique values for selected option in the pool
+            let statVals = [];
+            if (activeTab === 'flame') {
+              statVals = Array.from(new Set(sourceList.filter(o => o.raw_option === selectedVal).map(o => o.value)));
+            } else {
+              statVals = Array.from(new Set(sourceList.filter(o => o.option === selectedVal).map(o => o.value)));
+            }
             const getNumeric = (s) => parseFloat((s || "0").replace('%', ''));
             statVals.sort((a, b) => getNumeric(a) - getNumeric(b));
             
@@ -426,11 +450,6 @@ function renderStatsChecklist() {
           optPlaceholder.textContent = 'Min Value';
           valueSelect.appendChild(optPlaceholder);
         }
-        // recalc deferred to button
-      });
-      
-      valueSelect.addEventListener('change', () => {
-        // recalc deferred to button
       });
       
       statsChecklistContainer.appendChild(row);
@@ -673,6 +692,11 @@ function onTabChange() {
       <option value="3" selected>3 Lines</option>
     `;
   }
+
+  const potentialStyleConfigGroup = document.getElementById('potential-style-config-group');
+  if (potentialStyleConfigGroup) {
+    potentialStyleConfigGroup.style.display = (activeTab === 'flame') ? 'none' : 'block';
+  }
   
   populateEquipmentAndTiers();
   
@@ -759,9 +783,12 @@ function calculateOdds() {
   let checkedStats = [];
   let statThresholds = {};
   
-  if (activeTab === 'flame') {
-    const selects = document.querySelectorAll('.flame-stat-select');
-    const valSelects = document.querySelectorAll('.flame-threshold-select');
+  const style = selectPotentialStyle ? selectPotentialStyle.value : 'sums';
+  const isLineByLine = (activeTab === 'flame') || (style === 'linebyline');
+  
+  if (isLineByLine) {
+    const selects = document.querySelectorAll('#stats-checklist-container .flame-stat-select');
+    const valSelects = document.querySelectorAll('#stats-checklist-container .flame-threshold-select');
     
     selects.forEach((sel, idx) => {
       const val = sel.value;
@@ -774,7 +801,7 @@ function calculateOdds() {
       }
     });
   } else {
-    const inputs = document.querySelectorAll('.potential-threshold-input');
+    const inputs = document.querySelectorAll('#stats-checklist-container .potential-threshold-input');
     inputs.forEach(input => {
       const val = input.value;
       if (val !== "" && !isNaN(parseFloat(val))) {
@@ -788,7 +815,7 @@ function calculateOdds() {
   let successProb = 0.0;
   
   if (checkedStats.length === 0) {
-    displayResults(activeTab === 'flame' ? 1.0 : 0.0);
+    displayResults(isLineByLine ? 1.0 : 0.0);
     return;
   }
   
@@ -824,8 +851,10 @@ function calculateOdds() {
     }
     
     let totalMinLinesRequired = 0;
+    const uniqueStats = Array.from(new Set(checkedStats));
     
-    for (const opt of checkedStats) {
+    for (const opt of uniqueStats) {
+      const reqCount = checkedStats.filter(x => x === opt).length;
       const firstVals = firstPool.filter(o => o.option === opt).map(o => parseFloat((o.value || "0").replace('%', '')));
       const secVals = secThirdPool.filter(o => o.option === opt).map(o => parseFloat((o.value || "0").replace('%', '')));
       
@@ -861,10 +890,11 @@ function calculateOdds() {
         } else if (lines > 2 && targetVal <= slots[0] + slots[1] + slots[2]) {
           linesReq = 3;
         }
+        linesReq = Math.max(linesReq, reqCount);
         totalMinLinesRequired += linesReq;
       } else {
-        // Checking the option without a minimum value requires at least 1 line
-        totalMinLinesRequired += 1;
+        // Checking the option without a minimum value requires at least reqCount lines
+        totalMinLinesRequired += reqCount;
       }
     }
     
@@ -1427,7 +1457,10 @@ function autoRollSimItem() {
   let checkedStats = [];
   let statThresholds = {};
 
-  if (simMode === 'flame') {
+  const style = selectPotentialStyle ? selectPotentialStyle.value : 'sums';
+  const isLineByLine = (simMode === 'flame') || (style === 'linebyline');
+  
+  if (isLineByLine) {
     const selects = document.querySelectorAll('#sim-stats-checklist-container .sim-flame-stat-select');
     const valSelects = document.querySelectorAll('#sim-stats-checklist-container .sim-flame-threshold-select');
     
@@ -1788,24 +1821,34 @@ function renderSimStatsChecklist() {
   container.style.flex = 'initial';
   container.style.boxShadow = 'none';
   
-  if (simMode === 'flame') {
-    // Filter raw options to exclude trash stats, and include both discrete and consolidated options
-    const rawOpts = Array.from(new Set(sourceList.map(o => o.raw_option)));
-    const uniqueOptsSet = new Set();
-    rawOpts.forEach(o => {
-      const isTarget = o.startsWith("PHY ATK scales with") ||
-                       o.startsWith("MAG ATK scales with") ||
-                       o.startsWith("Crit DMG scales with") ||
-                       o.startsWith("Final DMG Increase") ||
-                       o.startsWith("DEF Ignore Rate");
-      if (isTarget) {
-        uniqueOptsSet.add(o);
-        if (o.startsWith("PHY ATK scales with")) uniqueOptsSet.add("PHY ATK scales with X");
-        else if (o.startsWith("MAG ATK scales with")) uniqueOptsSet.add("MAG ATK scales with X");
-        else if (o.startsWith("Crit DMG scales with")) uniqueOptsSet.add("Crit DMG scales with X");
-      }
-    });
-    const uniqueOpts = Array.from(uniqueOptsSet).sort();
+  const style = selectPotentialStyle ? selectPotentialStyle.value : 'sums';
+  const isLineByLine = (simMode === 'flame') || (style === 'linebyline');
+  
+  if (isLineByLine) {
+    let uniqueOpts = [];
+    if (simMode === 'flame') {
+      // Filter raw options to exclude trash stats, and include both discrete and consolidated options
+      const rawOpts = Array.from(new Set(sourceList.map(o => o.raw_option)));
+      const uniqueOptsSet = new Set();
+      rawOpts.forEach(o => {
+        const isTarget = o.startsWith("PHY ATK scales with") ||
+                         o.startsWith("MAG ATK scales with") ||
+                         o.startsWith("Crit DMG scales with") ||
+                         o.startsWith("Final DMG Increase") ||
+                         o.startsWith("DEF Ignore Rate");
+        if (isTarget) {
+          uniqueOptsSet.add(o);
+          if (o.startsWith("PHY ATK scales with")) uniqueOptsSet.add("PHY ATK scales with X");
+          else if (o.startsWith("MAG ATK scales with")) uniqueOptsSet.add("MAG ATK scales with X");
+          else if (o.startsWith("Crit DMG scales with")) uniqueOptsSet.add("Crit DMG scales with X");
+        }
+      });
+      uniqueOpts = Array.from(uniqueOptsSet).sort();
+    } else {
+      uniqueOpts = Array.from(new Set(sourceList.map(o => o.option)))
+        .filter(isAllowedPotential)
+        .sort();
+    }
     
     for (let i = 1; i <= lines; i++) {
       const row = document.createElement('div');
@@ -1848,7 +1891,7 @@ function renderSimStatsChecklist() {
       row.appendChild(rightDiv);
       
       select.addEventListener('change', () => {
-        populateFlameThresholdSelect(select.value, valueSelect, sourceList);
+        populateFlameThresholdSelect(select.value, valueSelect, sourceList, undefined, simMode === 'flame');
       });
       
       container.appendChild(row);
@@ -1903,7 +1946,7 @@ function renderSimStatsChecklist() {
 }
 
 // Helper to fill flame min value dropdown options
-function populateFlameThresholdSelect(selectedVal, valueSelect, sourceList, defaultValue) {
+function populateFlameThresholdSelect(selectedVal, valueSelect, sourceList, defaultValue, isFlame = true) {
   valueSelect.innerHTML = '';
   
   if (selectedVal) {
@@ -1921,7 +1964,12 @@ function populateFlameThresholdSelect(selectedVal, valueSelect, sourceList, defa
       optAnyVal.textContent = 'Any Value';
       valueSelect.appendChild(optAnyVal);
       
-      const statVals = Array.from(new Set(sourceList.filter(o => o.raw_option === selectedVal).map(o => o.value)));
+      let statVals = [];
+      if (isFlame) {
+        statVals = Array.from(new Set(sourceList.filter(o => o.raw_option === selectedVal).map(o => o.value)));
+      } else {
+        statVals = Array.from(new Set(sourceList.filter(o => o.option === selectedVal).map(o => o.value)));
+      }
       const getNumeric = (s) => parseFloat((s || "0").replace('%', ''));
       statVals.sort((a, b) => getNumeric(a) - getNumeric(b));
       
