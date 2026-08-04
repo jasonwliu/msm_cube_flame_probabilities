@@ -5,6 +5,39 @@ import json
 import time
 import os
 import sys
+from html.parser import HTMLParser
+
+class TableSanitizer(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.table_depth = 0
+        self.output = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == 'table':
+            self.table_depth += 1
+            if self.table_depth > 1:
+                return
+        elif tag.lower() in ['tr', 'td', 'th', 'tbody', 'thead', 'tfoot']:
+            if self.table_depth > 1:
+                return
+        
+        attr_str = "".join([f' {k}="{v}"' for k, v in attrs])
+        self.output.append(f"<{tag}{attr_str}>")
+
+    def handle_endtag(self, tag):
+        if tag.lower() == 'table':
+            if self.table_depth > 1:
+                self.table_depth -= 1
+                return
+            self.table_depth -= 1
+        elif tag.lower() in ['tr', 'td', 'th', 'tbody', 'thead', 'tfoot']:
+            if self.table_depth > 1:
+                return
+        self.output.append(f"</{tag}>")
+
+    def handle_data(self, data):
+        self.output.append(data)
 
 # Ensure UTF-8 output in logs
 sys.stdout.reconfigure(encoding='utf-8')
@@ -285,6 +318,11 @@ def main():
         if not page_html:
             print(f"  Failed to fetch page for ID {data_id}")
             continue
+            
+        # Sanitize HTML to strip nested tables before parsing
+        sanitizer = TableSanitizer()
+        sanitizer.feed(page_html)
+        page_html = "".join(sanitizer.output)
             
         tables = re.findall(r'<table.*?>(.*?)</table>', page_html, re.DOTALL | re.IGNORECASE)
         print(f"  Found {len(tables)} tables")

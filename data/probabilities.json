@@ -12534,6 +12534,150 @@
             "option": "Max MP",
             "value": "800",
             "prob": 0.0151
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0105
           }
         ],
         "second_third": [
@@ -12758,6 +12902,960 @@
             "option": "MAG DEF Increase",
             "value": "1.00%",
             "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.70%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.50%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.30%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.10%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "1.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "4.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.80%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.60%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.40%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.20%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.40%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.36%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.28%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.24%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.76%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.72%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.64%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.60%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.56%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.44%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.50%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.38%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.26%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.14%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.02%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.90%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.30%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.20%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.80%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.70%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.60%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.70%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.50%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.30%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.10%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.30%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.20%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.10%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.00%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.90%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.80%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "174",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "162",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "150",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "138",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "126",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "116",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "406",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "382",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "358",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "334",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "310",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "290",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "870",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "812",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "754",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "696",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "638",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "580",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1218",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1160",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1102",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1044",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "986",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "928",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "150",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "140",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "130",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "120",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "110",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "100",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "350",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "330",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "310",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "290",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "270",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "250",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "750",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "700",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "650",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "600",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "550",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "500",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1050",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1000",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "950",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "900",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "850",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "800",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.50%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.46%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.42%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.38%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.34%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.30%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.10%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.04%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.98%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.86%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.80%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.40%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.24%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.08%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.76%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.60%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.50%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.46%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.42%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.38%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.34%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.30%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.10%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.04%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.98%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.86%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.80%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0026
           }
         ]
       }
@@ -15458,6 +16556,150 @@
             "option": "Max MP",
             "value": "800",
             "prob": 0.0151
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0105
           }
         ],
         "second_third": [
@@ -15682,6 +16924,960 @@
             "option": "MAG DEF Increase",
             "value": "1.00%",
             "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.70%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.50%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.30%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.10%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "1.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "4.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.80%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.60%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.40%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.20%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.40%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.36%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.28%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.24%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.76%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.72%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.64%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.60%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.56%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.44%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.50%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.38%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.26%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.14%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.02%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.90%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.30%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.20%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.80%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.70%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.60%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.70%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.50%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.30%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.10%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.30%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.20%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.10%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.00%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.90%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.80%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "174",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "162",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "150",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "138",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "126",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "116",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "406",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "382",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "358",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "334",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "310",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "290",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "870",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "812",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "754",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "696",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "638",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "580",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1218",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1160",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1102",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1044",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "986",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "928",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "150",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "140",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "130",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "120",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "110",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "100",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "350",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "330",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "310",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "290",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "270",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "250",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "750",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "700",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "650",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "600",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "550",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "500",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1050",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1000",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "950",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "900",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "850",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "800",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.50%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.46%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.42%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.38%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.34%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.30%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.10%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.04%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.98%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.86%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.80%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.40%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.24%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.08%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.76%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.60%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.50%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.46%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.42%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.38%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.34%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.30%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.10%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.04%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.98%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.86%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.80%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0026
           }
         ]
       }
@@ -18382,6 +20578,150 @@
             "option": "Max MP",
             "value": "800",
             "prob": 0.0151
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.013600000000000001
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.012199999999999999
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0105
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0105
           }
         ],
         "second_third": [
@@ -18606,6 +20946,960 @@
             "option": "MAG DEF Increase",
             "value": "1.00%",
             "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.70%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.50%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.30%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "2.10%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "1.90%",
+            "prob": 0.0069
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "4.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.80%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.60%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.40%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.20%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "MAG DEF Increase",
+            "option": "MAG DEF Increase",
+            "value": "3.00%",
+            "prob": 0.0058
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.40%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.36%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.28%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.24%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.76%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.72%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.64%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "0.60%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.80%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.68%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.56%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.44%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.32%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.20%",
+            "prob": 0.0060999999999999995
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.50%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.38%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.26%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.14%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "2.02%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "Crit DMG RES",
+            "option": "Crit DMG RES",
+            "value": "1.90%",
+            "prob": 0.0052
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.30%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.20%",
+            "prob": 0.0159
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.80%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.70%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "0.60%",
+            "prob": 0.0106
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.70%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.50%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.30%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.10%",
+            "prob": 0.008
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.30%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.20%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.10%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "2.00%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.90%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "ACC",
+            "option": "ACC",
+            "value": "1.80%",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "174",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "162",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "150",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "138",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "126",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "116",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "406",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "382",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "358",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "334",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "310",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "290",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "870",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "812",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "754",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "696",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "638",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "580",
+            "prob": 0.004699999999999999
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1218",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1160",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1102",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "1044",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "986",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (flat)",
+            "value": "928",
+            "prob": 0.0042
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "150",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "140",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "130",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "120",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "110",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "100",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "350",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "330",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "310",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "290",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "270",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "250",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "750",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "700",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "650",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "600",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "550",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "500",
+            "prob": 0.0040999999999999995
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1050",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1000",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "950",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "900",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "850",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "800",
+            "prob": 0.0038
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.50%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.46%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.42%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.38%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.34%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.30%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.10%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.04%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.98%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.86%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "0.80%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.40%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.24%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.08%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.92%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.76%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "1.60%",
+            "prob": 0.0036
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.40%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.24%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "3.08%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.92%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.76%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max HP",
+            "option": "Max HP (%)",
+            "value": "2.60%",
+            "prob": 0.0034000000000000002
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.50%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.46%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.42%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.38%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.34%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.30%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.10%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.04%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.98%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.86%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "0.80%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "1.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.40%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.24%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "3.08%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.92%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.76%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "Max MP",
+            "option": "Max MP",
+            "value": "2.60%",
+            "prob": 0.0031
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "PHY ATK",
+            "option": "PHY ATK",
+            "value": "480",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "630",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "600",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "570",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "540",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "510",
+            "prob": 0.0026
+          },
+          {
+            "raw_option": "MAG ATK",
+            "option": "MAG ATK",
+            "value": "480",
+            "prob": 0.0026
           }
         ]
       }
@@ -93678,3056 +96972,7 @@
         ]
       }
     },
-    "Shoulders": {
-      "Rare": {
-        "first": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "60",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "70",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "80",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "90",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "60",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "70",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "80",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "90",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.20%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.30%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "116",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "135",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "154",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "174",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.30%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.30%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.10%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.20%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          }
-        ],
-        "second_third": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "60",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "70",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "80",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "90",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "60",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "70",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "80",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "90",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.20%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.30%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "116",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "135",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "154",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "174",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.30%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.30%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.10%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.20%",
-            "prob": 0.05
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          }
-        ]
-      },
-      "Epic": {
-        "first": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "150",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "170",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "190",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "210",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "150",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "170",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "190",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "210",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.70%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.80%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "290",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "329",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "368",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "406",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.40%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.50%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.60%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.40%",
-            "prob": 0.025
-          }
-        ],
-        "second_third": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "60",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "70",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "80",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "90",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "150",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "170",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "190",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "210",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "60",
-            "prob": 0.0126
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "70",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "80",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "90",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "150",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "170",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "190",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "210",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.60%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.20%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.40%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.30%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.60%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.70%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.80%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "116",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "135",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "154",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "174",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.30%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "290",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "329",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "368",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "406",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.80%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.90%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.30%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.80%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.90%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.60%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0125
-          }
-        ]
-      },
-      "Unique": {
-        "first": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "300",
-            "prob": 0.025099999999999997
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "320",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "340",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "360",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "300",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "320",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "340",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "360",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.30%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "580",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "619",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "658",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "696",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.60%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.70%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.60%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.70%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.80%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.90%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1%",
-            "prob": 0.0333
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.30%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.30%",
-            "prob": 0.025
-          }
-        ],
-        "second_third": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "60",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "70",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "80",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "90",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "150",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "170",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "190",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "210",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "300",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "320",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "340",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "360",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "60",
-            "prob": 0.0084
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "70",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "80",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "90",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "150",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "170",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "190",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "210",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "300",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "320",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "340",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "360",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.60%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.20%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.30%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.60%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.70%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.80%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.30%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "116",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "135",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "154",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "174",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.30%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "290",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "329",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "368",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "406",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.90%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "580",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "619",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "658",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "696",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.70%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.90%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.30%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.90%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.70%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.90%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.10%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.20%",
-            "prob": 0.0167
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.60%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.80%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.90%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.30%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0111
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.10%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.20%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.30%",
-            "prob": 0.0083
-          }
-        ]
-      },
-      "Legendary": {
-        "first": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "480",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "530",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "580",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "630",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "480",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "530",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "580",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "630",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.50%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "4.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2.30%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "928",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1025",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1122",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1218",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "2.60%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "2.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "3.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "3.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "2.60%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "2.90%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "3.20%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "3.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.30%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.50%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.70%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.80%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.70%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "4.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.10%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.40%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.70%",
-            "prob": 0.025
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "4.10%",
-            "prob": 0.025
-          }
-        ],
-        "second_third": [
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "60",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "70",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "80",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "90",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "150",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "170",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "190",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "210",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "300",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "320",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "340",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "360",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "480",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "530",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "580",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DEF",
-            "option": "PHY DEF",
-            "value": "630",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "60",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "70",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "80",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "90",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "150",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "170",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "190",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "210",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "300",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "320",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "340",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "360",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "480",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "530",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "580",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DEF",
-            "option": "MAG DEF",
-            "value": "630",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "0.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "1.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "2.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.50%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "3.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Boss DEF Increase",
-            "option": "Boss DEF Increase",
-            "value": "4.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.20%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.30%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.70%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "0.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.30%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "1.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "ACC",
-            "option": "ACC",
-            "value": "2.30%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "116",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "135",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "154",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "174",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.30%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "290",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "329",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "368",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "406",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "0.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "580",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "619",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "658",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "696",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.60%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.70%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "1.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "928",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1025",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1122",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (flat)",
-            "value": "1218",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "2.60%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "2.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "3.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max HP",
-            "option": "Max HP (%)",
-            "value": "3.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.30%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "0.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.60%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.70%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "1.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "2.60%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "2.90%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "3.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "Max MP",
-            "option": "Max MP",
-            "value": "3.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.10%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.20%",
-            "prob": 0.0125
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.80%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "0.90%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.30%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.50%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.70%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "EXP Increase",
-            "option": "EXP Increase",
-            "value": "1.80%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "2.30%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "3.70%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "PHY DMG Increase",
-            "option": "PHY DMG Increase",
-            "value": "4.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.40%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.50%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "0.60%",
-            "prob": 0.0083
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "1.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.20%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "2.30%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.10%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.40%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "3.70%",
-            "prob": 0.0063
-          },
-          {
-            "raw_option": "MAG DMG Increase",
-            "option": "MAG DMG Increase",
-            "value": "4.10%",
-            "prob": 0.0063
-          }
-        ]
-      }
-    },
+    "Shoulders": {},
     "Belt": {
       "Rare": {
         "first": [
